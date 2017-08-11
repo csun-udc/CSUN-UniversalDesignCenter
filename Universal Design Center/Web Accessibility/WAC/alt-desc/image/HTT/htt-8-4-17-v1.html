@@ -1,0 +1,51 @@
+<style><!--
+.top{
+border: 1px solid grey; border-radius: 5px;
+width: 94px;
+text-align: center;
+background-color: #F3F3FF;
+float: right;
+}
+
+:target {
+background-color: #FFFF80;
+}
+--></style>
+
+<h3>Manual Review</h3>
+<span id="htt-wac-images"></span>
+<ol>
+<li>Review each <code>img</code> element and ensure it has the <code>alt</code>attribute.<ol>
+<li>If Alt is present, Examine if the alternative text within the <code>alt</code> attribute contains a short and meaningful description of the image.</li>
+<li>If <code>alt</code> attribute is not present, look to see if there is an alternative image description method (e.g. caption, description within the text, linked image methods, etc)</li>
+<ol>
+<li>Review the text alternative to determine if it is a meaningful description of the image</li>
+</ol></ol></li>
+</ol>
+<h3>Automated Testing Tools</h3>
+<h4><a href="https://chrispederick.com/work/web-developer/">Web Developer Extension</a></h4>
+<ol>
+<li>Open the Web Developer toolbar on your browser (Chrome, Firefox)</li>
+<li>Navigate to the Images column</li>
+<li>Select “Display Alt Attributes”</li>
+<li>Manually review the alternative texts to see if they meet the guidelines.&nbsp;</li>
+</ol>
+<h4><a title="http://wave.webaim.org/" href="http://wave.webaim.org/" target="_self">WebAIM WAVE tool</a></h4>
+<p>Activate the WAVE toolbar and navigate to the “Details” panel. Use “<strong>Errors, Features, and Alerts</strong>” to check all the alternative text that is present in the webpage.</p>
+<p>The following icons are accessibility errors related to images found by WAVE:&nbsp;</p>
+<ul>
+<ul>
+<li>[[{"type":"media","view_mode":"media_original","fid":"441476","attributes":{"alt":"Image Alt Text Error","border":"0","class":"media-image","height":"40","typeof":"foaf:Image","width":"41"}}]]:&nbsp; indicates image is missing alternative text</li>
+<li>[[{"type":"media","view_mode":"media_original","fid":"441481","attributes":{"alt":"Spacer Image alt text error ","border":"0","class":"media-image","height":"39","typeof":"foaf:Image","width":"39"}}]]: &nbsp;<span>Spacer image missing alternative text</span></li>
+<li>[[{"type":"media","view_mode":"media_original","fid":"441486","attributes":{"alt":"Linked Image Alt Text Error","border":"0","class":"media-image","height":"41","typeof":"foaf:Image","width":"41"}}]]: indicates linked image is missing alternative text</li>
+<li>[[{"type":"media","view_mode":"media_original","fid":"441491","attributes":{"alt":"Button alt text error ","border":"0","class":"media-image","height":"41","typeof":"foaf:Image","width":"40"}}]]: indicates image button is missing alternative text</li>
+<li>[[{"type":"media","view_mode":"media_original","fid":"441496","attributes":{"alt":"Image Map Alt Text Error ","border":"0","class":"media-image","height":"40","typeof":"foaf:Image","width":"83"}}]]: indicates image map is missing alternative text</li>
+<li>[[{"type":"media","view_mode":"media_original","fid":"612681","attributes":{"alt":"LongDesc error","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"44"}}]]: Image has a long description&nbsp;</li>
+</ul>
+</ul>
+<h4><a href="https://www.csun.edu/universal-design-center/compliance-sheriff">Compliance Sheriff</a></h4>
+<p>The Compliance Sheriff checkpoints related to images are&nbsp;<strong>Section A </strong>and<strong>&nbsp;CSU ATI Alt Quality Requirements</strong>. For more information, refer to the <a href="https://www.csun.edu/universal-design-center/compliance-sheriff-checkpoints"><span style="text-decoration: underline;">CSU ATI Accessibility Requirements.</span></a></p>
+
+<a href="#htt-wac-images"><div class="top"> back to top </div></a>
+
+<br />
