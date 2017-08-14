@@ -1,0 +1,88 @@
+<style>
+  <!-- .top {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 94px;
+    text-align: center;
+    background-color: #F3F3FF;
+    float: right;
+  }
+
+  :target {
+    background-color: #FFFF80;
+  }
+
+  -->
+</style>
+
+
+
+
+
+<h2 id="beginning" style="color: #ffffff; background-color: #cf0a2c;">&nbsp;Description</h2>
+<p>Forms are interactive elements used to capture user-provided information. There are many aspects that make up a form including the form fields itself (also known as controls), instructions, error identification and form submission. Forms require an extensive
+  amount of user interaction and therefore must be designed in a way that will ensure they are accessible and usable to all users regardless of disabilities.</p>
+<h3 style="padding-left: 30px;">Form Accessibility</h3>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Label Element</h4>
+<p style="padding-left: 60px;">To ensure accessibility, all forms should have&nbsp;<strong><code>label&nbsp;</code>elements</strong>. Text labels should describe the function of each form field. The label element should explicitly associate text with a form field.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Unique For attribute and ID</h4>
+<p style="padding-left: 60px;">When the <code>label</code> element is present, a specific form control called the<strong> <code>FOR</code> attribute</strong>, must be associated to it. A<strong> unique ID attribute</strong> must also be present that matches the same value as the FOR
+  attribute of the label element. The FOR and the ID must be identical.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Aria-Label&nbsp;</h4>
+<p style="padding-left: 60px;">In addition to proper form labels and attributes, to ensure the accessibility of a form field, Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA) should be used.&nbsp;<span>WAI-ARIA is a technical specification that defines methods to create accessible web content.</span>&nbsp;Aria
+  attributes and properties that are useful for making accessible forms are (but not limited to) aria-label, aria-labeledby, aria-describedby, aria-required, aria-disabled, aria-hidden, aria-live, aria-expanded, roles and landmarks. &nbsp;&nbsp;</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Title Attribute</h4>
+<p style="padding-left: 60px;">When the visual design cannot be accommodated with the label element, the title attribute should be used to identify form controls. For example, a Search field or a phone number field with separate components (area code and the number) may benefit the
+  use of title attribute. &nbsp;The title attribute will not be visually displayed on the page but will be announced to assistive technology users when the field receives focus.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Use of Activate and Focus event handlers</h4>
+<p style="padding-left: 60px;">When using “activate” and “focus” event-handlers, it is important to use them correctly to avoid sudden changes that could confuse or distract users. It may cause difficulty to complete an action as well. Actions linked to the “<b>Onfocus</b>” event are
+  not controlled by the user and will be executed the moment a form field receives focus, without any acknowledgment from the user. This will be an unexpected behavior especially for assistive technology users. They may get confused while navigating through
+  the form field elements triggered by a “focus” event-handler. To execute an action, events such as “<b>Onclick</b>”, “<b>Onkeydown</b>” or “<b>Onkeypress</b>” are used because they will listen to the user’s action/entry to trigger the associated function.</p>
+<p style="padding-left: 60px;">For the following HTML buttons, the function associated will be triggered only if the user clicks the button or presses a key.&nbsp;</p>
+<ul>
+  <ul>
+    <ul>
+      <li><em>&lt;button onclick="SubmitFormData()"&gt; Submit &lt;/button&gt;</em></li>
+      <li><em>&lt;button onkeypress= SubmitFormData()"&gt; Submit &lt;/button&gt;</em></li>
+    </ul>
+  </ul>
+</ul>
+<a href="#beginning">
+  <div class="top"> back to top </div>
+</a>
+<br>
+<h3 style="padding-left: 30px;">Form Usability&nbsp;</h3>
+<h4 style="padding-left: 60px; color: #cf0a2c;">User Errors</h4>
+<p style="padding-left: 60px;">Always anticipate user errors. If a user were to improperly fill out a form an <strong>error message</strong> should appear notifying the user of their error and how they should fix it. To minimize the amount of user errors it is strongly recommended
+  to use a specific set of characters and examples to ensure that user’s input valid data. JavaScript and CSS can be used to implement <strong>required form fields</strong> and specific data entry.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Required Forms</h4>
+<p style="padding-left: 60px;">Required sections in forms must be clearly labeled with a symbol or character to inform users that a section is required. Commonly, an<strong> asterisk (*) symbol is used to indicate a required form field</strong>. Color can be used to show a required
+  form field, as long as it is not the only way to convey the required form field. If color is used it must be combined with a symbol or character to identify as a required form field. An instruction must also be provided to define the meaning of the
+  symbols or characters. (e.g. required form fields are marked by asterisk "*")&nbsp;</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Fieldset and Legends&nbsp;</h4>
+<p style="padding-left: 60px;">A <b>group of interrelated form fields&nbsp;</b>should be code by <strong><code>fieldset</code></strong> and <strong><code>legend</code></strong>. &nbsp;The <code> fieldset</code> identifies the entire grouping and <code>legend&nbsp;</code>identifies
+  the grouping's descriptive text. Using <code>fieldset </code> and <code> legend </code> ensures that the text description is read to screen reader users when the grouping is navigated to.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Form Validations&nbsp;</h4>
+<p style="padding-left: 60px;">Forms must always be properly <strong>validated</strong> for correct information and valid data entry. Validating the input notifies the user with form errors and allows them to correct the forms.</p>
+<h4 style="padding-left: 60px; color: #cf0a2c;">Instructions&nbsp;</h4>
+<p style="padding-left: 60px;"><b>Form instructions</b> should be provided to help users understand how to properly fill out the form.</p>
+<p>For more information about accessible forms refer to the<b> <a href="https://www.csun.edu/universal-design-center/best-parctices-accessible-forms">Best Practices for Accessible Forms</a></b> page.</p>
+<a href="#beginning">
+  <div class="top"> back to top </div>
+</a>
+<br>
+<h2 style="color: #ffffff; background-color: #cf0a2c;">&nbsp;Why is it important?</h2>
+<p>Accessible forms make it visually and pragmatically easier for all users to understand the forms. Users can easily have associated forms and identify what information is asked of them. &nbsp;Additional reasons why form fields are important include:</p>
+<ul>
+  <li>Assistive technology users will be able to know what information to input in each form field.</li>
+  <li>Screen reader users navigate through a forms using the “Tab” key. Associated form labels are read for each form control when the user navigates to them. If the label is not properly labeled or associated with a form, the form instructions will not be
+    read to assistive technology users.</li>
+  <li>When form fields are not properly associated to their labels, assistive technology users will not know which label is related to which form.</li>
+  <li>If form fields are not validated, users will not know about errors.</li>
+</ul>
+
+<a href="#beginning">
+  <div class="top"> back to top </div>
+</a>
+<br>
+<br>
