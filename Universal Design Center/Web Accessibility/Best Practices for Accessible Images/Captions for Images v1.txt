@@ -1,25 +1,4 @@
-<style>
-  <!-- .top {
-    border: 1px solid grey;
-    border-radius: 5px;
-    width: 94px;
-    text-align: center;
-    background-color: #F3F3FF;
-    float: right;
-  }
-
-  :target {
-    background-color: #FFFF80;
-  }
-
-  -->
-</style>
-
-
-
-
-
-<u id="beginning2" l>
+<ul>
 <li><a href="#c1">What are captions for images?</a></li>
 <li><a href="#c2">What are the benefits of using captions?</a></li>
 <li><a href="#c3">When should an image need a caption?</a></li>
@@ -31,12 +10,10 @@
 </div>
 <p style="text-align: justify;"><strong>Captions for images&nbsp;</strong>are text descriptions of an image that are displayed on a webpage.Captions provide supplemental information about what the image is conveying.<span style="text-align: center;">&nbsp;</span></p>
 <div style="text-align: justify;">
-<a href="#beginning2"><div class="top"> back to top </div></a><br>
 <h3><a id="c2"></a>What are the benefits of using captions?</h3>
 </div>
 <p style="text-align: justify;">Captions are the universal design recommended approach to providing text alternatives to images. &nbsp;Captions are a great alternative to ensure everyone has equal access to the image description because they are displayed within the main content and can be read by assistive technology. A common malpractice with alt text is providing additional information about an image within the alt text that is not otherwise seen in the image. This will put sighted users at a disadvantage because they will not see the alt text. Captions are available to both sighted and non-sighted users, thus allowing the greatest amount of access to information about an image.</p>
 <div style="text-align: justify;">
-<a href="#beginning2"><div class="top"> back to top </div></a><br>
 <h3><a id="c3"></a>When should an image need a caption?</h3>
 </div>
 <p style="text-align: justify;">As with alt text, an image requires a caption if it conveys important information. Captions work best for:</p>
@@ -48,11 +25,10 @@
 <li><b>Images that are using long description</b>: The long description has been used as alt text for images that require more than one sentence. However, some modern programming languages and browsers may not support the full functionality of the long description. Captions, therefore, may be the alternative solution to avoid compatibility issues.</li>
 </ul>
 </ul>
-<p style="text-align: justify;"><strong>NOTE</strong>: when adding a caption instead of alt text, the alt text attribute should be null (<code>Alt=‚Äù‚Äù</code>).</p>
+<p style="text-align: justify;"><strong>NOTE</strong>: when adding a caption instead of alt text, the alt text attribute should be null (<code>Alt=îî</code>).</p>
 <div style="text-align: justify;">
-<a href="#beginning2"><div class="top"> back to top </div></a><br>
 <h3><a id="cn"></a>How to add captions to an image</h3>
-<p>&nbsp;In HTML5, the <span><code> ‚Äúfigcaption‚Äù</code></span> element is used to provide caption for an image. The <span><code>‚Äúfigcaption‚Äù </code></span> provides a description for a <span><code> ‚Äúfigure‚Äù </code><span> element that would be programmatically associated with the image.</span></span></p>
+<p>&nbsp;In HTML5, the <span><code> ìfigcaptionî</code></span> element is used to provide caption for an image. The <span><code>ìfigcaptionî </code></span> provides a description for a <span><code> ìfigureî </code><span> element that would be programmatically associated with the image.</span></span></p>
 <h4 style="text-align: left; padding-left: 30px;"><b>Syntax:</b></h4>
 <p style="text-align: left; padding-left: 60px;"><strong>&nbsp;<code><span style="color: #c00000;">&lt;figure&gt;</span><span style="color: #000080;"> &lt;figcaption&gt;</span>&nbsp;</code></strong><code><i>text&nbsp;</i></code><strong><code><span style="color: #000080;">&lt;/figcaption&gt; </span> <span style="color: #c00000;">&lt;/figure&gt;</span></code></strong></p>
 <h4 style="padding-left: 30px;"><strong>Full code view:&nbsp;</strong></h4>
@@ -68,4 +44,4 @@
 <figure style="padding-left: 60px; text-align: center;">[[{"type":"media","view_mode":"media_original","fid":"523141","attributes":{"alt":"","border":"0","class":"media-image","height":"247","style":"display: block; margin-left: auto; margin-right: auto;","typeof":"foaf:Image","width":"500"}}]]<br /><figcaption><b>Example 4: </b>Periodic Table of Elements with the Nobel gases emphasized in red. The Nobel gases are: He- Helium, Ne- Neon, Ar- Argon, Kr- Krypton, Xe- Xenon, Rn- Radon </figcaption></figure>
 <p style="text-align: justify;">The final image (<strong>Example 5</strong>) is a complex image. It displays a bar graph and each bar represents people in the U.S with a particular kind of disability. The caption for this image is slightly long, but not too long where it overwhelms the page. However, if the description for an image is too long, a caption may not be a suitable method to provide a text alternative.</p>
 <figure role="group&quot;" style="padding-left: 60px; text-align: center;">[[{"type":"media","view_mode":"media_large","fid":"524496","attributes":{"alt":"","border":"0","class":"media-image","height":"266","typeof":"foaf:Image","width":"330"}}]]<br /><figcaption><b>Example 5:</b>The bars represent the number of people (in millions) with disabilities in the United States. The bars show that 1.8 million people have visual impairments, 1.0 million hearing impairments, 14.3 million people have cognitive mental disabilities are 14.3 million and 11.8 million have ambulatory or fine motor disabilities are 11.8 million. This data is coming from the U.S. Census Bureau.</figcaption></figure>
-<a href="#beginning2"><div class="top"> back to top </div></a><br>
+<figure style="padding-left: 60px; text-align: right;"><a href="#top">Return to top of page</a><span>&nbsp;</span></figure>

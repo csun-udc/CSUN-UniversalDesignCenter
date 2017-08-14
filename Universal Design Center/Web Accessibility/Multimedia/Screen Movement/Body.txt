@@ -1,0 +1,39 @@
+<style><!--
+.top{
+border: 1px solid grey; border-radius: 5px;
+width: 94px;
+text-align: center;
+background-color: #F3F3FF;
+float: right;
+}
+
+:target {
+background-color: #FFFF80;
+}
+--></style>
+
+
+<h2 id = "beginning" style="color: #ffffff; background-color: #cf0a2c;">&nbsp;Description</h2>
+<p><strong>Screen movement</strong> is a common technique used today to get people to interact with web content. There are various forms of screen movement for the web including &nbsp;animations, flashing content, user video controls, and slideshows. Flashing content is also a commonly used type of screen movement that provides focus to various elements in a page. When screen movement is present within a webpage, it is important that screen movement be developed in a way that makes it accessible to all users.</p>
+<h3 style="padding-left: 30px;">Provide Controls to Moving Content</h3>
+<p style="padding-left: 30px;">When screen movement is included in a web page, a mechanism should be provided for users to control the blinking such as a <b>stop/pause buttons</b>. Elements such as a slideshow, presentation or video, must contain user controls to play, pause or stop the motion or video. This will ensure users have control over the screen movement, should they find it too distracting.</p>
+<h3 style="padding-left: 30px;">Excessive Movement</h3>
+<p style="padding-left: 30px;">When adding screen movement to your website, it is important to avoid content that flashes or blinks excessively. For example, web pages should not contain anything that flashes more than <b>three times during a one-second period</b>.&nbsp; Anything that flashes too excessively runs the risk of inducing seizures.</p>
+<h3 style="padding-left: 30px;">Types of screen movement that should not be used</h3>
+<p style="padding-left: 30px;">To ensure accessibility, <b>blinking, scrolling and rotating screen movement should be avoided</b> at all cost. Movement of this kind could be a distraction to users and makes it difficult to read and process information. The following types of screen movement elements are known to cause uncontrolled movement and should not be used:&nbsp;</p>
+<ul>
+<ul>
+<li><b>HTML Blink</b>: The blink element (&lt;blink&gt;) is used to cause text to appear and disappear text at an uncontrolled rate.</li>
+<li><b>CSS Blink</b>: CSS Blink tag is the CSS “text-decoration: blink;” code. It also causes excessive text blinking that cannot be controlled.</li>
+<li><b>Marquee Element</b>: The marquee element is a non-standard HTML element that causes text to automatically scroll up, down, left or right.</li>
+</ul>
+</ul>
+
+
+<a href="#beginning"><div class="top"> back to top </div></a>
+<br>
+<h2 style="color: #ffffff; background-color: #cf0a2c;">&nbsp;Why is it important?</h2>
+<p>Although the overall goal of screen movement is to appeal and engage users to a website, when not used properly, screen movement can cause &nbsp;distraction and can be a problem to users with disabilities. Excessive screen movement with no mechanism to control can makes it difficult for users to gather information. Users with visual processing or cognitive disabilities, who may need more time to read and process the information, will encounter accessibility barriers if there is too much movement on a web page. &nbsp;Moreover, when excessive screen movement such as blinking, flashing, and scrolling is used, there is a risk that this may trigger seizures, dizziness or nausea to individuals prone to them.</p>
+<a href="#beginning"><div class="top"> back to top </div></a>
+<br>
+<br>

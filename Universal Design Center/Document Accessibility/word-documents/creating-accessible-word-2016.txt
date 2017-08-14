@@ -1,0 +1,165 @@
+<style><!--
+    .top{
+    border: 1px solid grey; border-radius: 5px;
+    width: 94px;
+    text-align: center;
+    background-color: #F3F3FF;
+    float: right;
+    }
+
+    :target {
+    background-color: #FFFF80;
+    }
+
+    h2, h3 {
+        padding-left: 10px;
+    }
+--></style>
+
+        <h2 id = "beginning" class = "space" style="color: #ffffff; background-color: #cf0a2c;"><a id="T1"></a> Overview</h2>
+        <p>This is an overview for creating accessible documents using Microsoft Word 2016. Accessible documents allow information to be readily available for assistive technology. Screen readers can easily navigate the content when accessibility is considered during the design process. This will not only benefit people with disabilities, but overall usability will improve for all users. This information will cover headings, styles/formatting, images, tables, links, color contrast, columns, using the accessibility checkers, and converting the file to a PDF.&nbsp;Use the&nbsp;<a href="https://www.csun.edu/universal-design-center/word-checklist">Word Checklist</a>&nbsp;in conjunction with this tutorial for a quick high-level view of each checkpoint to complete.</p>
+        <h3 style="color: #ffffff; background-color: #cf0a2c;">In this Tutorial:</h3>
+        <ul>
+        <li><a title="Skip to Headings" href="#A1">Headings</a></li>
+        <li><a title="Skip to styles and formatting" href="#A2">Styles/Formatting</a></li>
+        <li><a title="Skip to images" href="#A3">Images</a></li>
+        <li><a title="Skip to tables" href="#A4">Tables</a></li>
+        <li><a title="Skip to Links" href="#A5">Links</a></li>
+        <li><a title="Skip to color contrast" href="#A6">Color Contrast</a></li>
+        <li><a href="#A20">Columns</a></li>
+        <li><a title="Skip to accessibility checker" href="#A7">Accessibility Checkers</a></li>
+        <li><a title="Skip to converting a file to PDF" href="#A8">Converting a file to PDF</a></li>
+        <li><a title="Skip to video tutorial" href="#A9">Video Tutorial</a></li>
+        </ul>
+        <h2>&nbsp;</h2>
+        <h2 style="color: #ffffff; background-color: #cf0a2c;"> Creating Accessible Documents</h2>
+        <h3><a id="A1"></a>Headings</h3>
+        <p class="MsoNormal">Headings are styles to give a document structure by category or topic. Headings are used to build sections within a document to create a visual hierarchy structure to show topics and sub-topics. A screen reader or viewer can easily find information based on headings. For example, if you were only looking for creating accessible tables on this page, you can skim (visually and technically) this page to find the sub-topic quickly. This improves usability, efficiency, and accessibility. Additional benefits to using headers include:</p>
+        <ul>
+        <li><span style="text-indent: -0.25in;">Headings copy/paste seamlessly into a web content editor to minimize additional editing</span></li>
+        <li><span style="text-indent: -0.25in;">Headings are recognized when scrolling through a document</span></li>
+        <li><span style="text-indent: -0.25in;">Headings automatically populate a table of contents page</span></li>
+        <li>Headings copy over to converted PDF’s</li>
+        <li>Headings can be collapsed&nbsp;</li>
+        </ul>
+        <p>Heading styles options are located on the <strong>Home</strong> tab. Click the desired heading and begin typing. Highlighting a word and selecting the heading styling will change the heading. Selecting heading style should replace manually selecting fonts and sizing.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"532856","attributes":{"alt":"","border":"0","class":"media-image","height":"83","style":"border: 1px solid black;","title":"Style options with normal selected","typeof":"foaf:Image","width":"644"}}]]</p>
+        <p>The document formatting can be customized. Click <strong>Design</strong> and select the desired formatting from the options.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"532866","attributes":{"alt":"Style Design formatting options","border":"0","class":"media-image","height":"116","style":"border: 1px solid black;","typeof":"foaf:Image","width":"759"}}]]</p>
+        <h4>An Example of Headings:</h4>
+        <p>[[{"type":"media","view_mode":"default","fid":"532876","attributes":{"alt":"Headings examples: title, heading 1, heading 2, and normal text","border":"0","class":"media-image","height":"350","style":"border: 1px solid black;","typeof":"foaf:Image","width":"511"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A2"></a>Styles/Formatting</h3>
+        <p>Styling on a document can increase the impact or effect for the viewer. For example, bold or italic place a level of emphasis on a word. However, these styling elements are not recognizable to screen readers or to people with low vision. Select <strong>Strong</strong> from the styles toolbar instead of bold.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"532881","attributes":{"alt":"Style options with strong selected","border":"0","class":"media-image","height":"82","style":"border: 1px solid black;","typeof":"foaf:Image","width":"549"}}]]</p>
+        <p>Organizing information on a document using bullets or numbered lists presents content in an organized manner and is recognizable to assistive technology. For example, when numbered lists are used screen readers will automatically detect the sequence and announce, “Number 1…” Be sure to use numbered lists for sequential ordered content and bullets to present summarized/brief content.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"532886","attributes":{"alt":"Bullet and list features","border":"0","class":"media-image","height":"66","style":"border: 1px solid black;","typeof":"foaf:Image","width":"150"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A3"></a>Images</h3>
+        <p>Images can be inaccessible for people with low vision, color blindness, or who are Blind. To provide equal access to information presented in visual formats, a detailed written description of the image is required. Completed <em>one</em> of the following to provide descriptions for images:</p>
+        <ol>
+        <li>Providing a written description below the image (in the document)</li>
+        <li>Inserting a caption by <strong>Right-Clicking</strong> the image and select <strong>Insert Caption</strong>, or</li>
+        <li>Inserting an alternative text by <strong>Right-Clicking</strong> the image, select <strong>Format Picture</strong>, and click <strong>Layout &amp; Properties</strong> (third icon). Be sure to type the explanation of the image in the <strong>description</strong> field not the title field.</li>
+        </ol>
+        <p>[[{"type":"media","view_mode":"default","fid":"532896","attributes":{"alt":"Alternate text description field","border":"0","class":"media-image","height":"186","style":"border: 1px solid black;","typeof":"foaf:Image","width":"214"}}]]</p>
+        <p>A written description, captions, or alternative (alt) text provides a written description of the image to screen readers. Consider the best description option for the image and document.</p>
+        <h3>Additional Considerations</h3>
+        <ul>
+        <li>When inserting the image, be sure to use the picture inline option to optimize reading order for screen readers</li>
+        <li>Alternative text is extremely critical for images used for instructional purposes. For assessment statements such as, “Use the graph to answer questions 1-3” an alternative text is required for the graph.</li>
+        <li>Complex (Math and Scientific) graphs and charts may require a caption (for larger amounts of information) to write a detailed descriptions</li>
+        <li>Decorative images, such as line dividers, do not require a written description or alt text</li>
+        </ul>
+        <h3>Best Practices</h3>
+        <ul>
+        <li>Be clear and specific</li>
+        <li>Use phrasing to include inferred information</li>
+        <li>If the image is for instructional purposes, be sure to include necessary information to answer questions</li>
+        </ul>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A4"></a>Tables</h3>
+        <p>Tables are used to visually organize cross-referencing information. However, sometimes tables are used to organize the layout of the page or as a text box. Screen readers cannot decipher this type of content within tables and should be avoided. Use tables to organize structured information:</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"532901","attributes":{"alt":"Sample table with name, cell phone, email","border":"0","class":"media-image","height":"73","style":"border: 1px solid black;","typeof":"foaf:Image","width":"712"}}]]</p>
+        <p>Once a table is created, continue to build rows and columns using the insert options on the toolbar rather than using the <strong>tab</strong> key.</p>
+        <p>[[{"type":"media","view_mode":"media_original","fid":"532356","attributes":{"alt":"Inserting table option with insert right selected","border":"0","class":"media-image","height":"111","style":"border: 1px solid black;","typeof":"foaf:Image","width":"207"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A5"></a>Links</h3>
+        <p>Links can help redirect a viewer to related content. Links should be clear and directly relate to the title or heading of the linked page. Links with vague wording such as, “Click here for more details<strong>”</strong> or “Go here for more information” can be misleading for screen readers and keyboard users. Instead, use direct wording such as, “Visit the <a href="http://www.csun.edu/universaldesigncenter">Universal Design Center</a> for more information about accessibility.”</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533066","attributes":{"alt":"Inserting hyperlinks","border":"0","class":"media-image","height":"333","style":"border: 1px solid black;","typeof":"foaf:Image","width":"721"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A6"></a>Color Contrast</h3>
+        <p>Color can play a significant role in the overall readability of a document. First, use of neon or pastel colors makes content challenging to read with someone who has low vision and/or a degree of color blindness. Additionally, the viewer will be placing a constant strain on the eyes to read the content. Secondly, if colors are used to place importance on instructional materials i.e. which section is highlighted in red, captions or alternative text should be included to note the significance of the colors. Some examples of good color contrast include:&nbsp;[[{"type":"media","view_mode":"media_original","fid":"532366","attributes":{"alt":"White text on dark background","border":"0","class":"media-image","height":"22","typeof":"foaf:Image","width":"201"}}]]or&nbsp;[[{"type":"media","view_mode":"media_original","fid":"532371","attributes":{"alt":"","border":"0","class":"media-image","height":"22","typeof":"foaf:Image","width":"189"}}]].</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A20"></a>Columns</h3>
+        <p>Using columns can visually organize and condense information on a page. Screen readers have the ability to read content organized in columns. To create columns, select the desired text, click <strong>Layout</strong>, select <strong>Columns</strong>, and finally pick the number of desired columns.</p>
+        <h3>&nbsp;</h3>
+        <h3><a id="A7"></a>Accessibility Checker</h3>
+        <p>The Word Accessibility Checker scans the document for any potential errors or warnings and provides helpful tips to remedy the issues. The Accessibility Checker scan is helpful to identify inaccessible documents while they are being developed. To remediate an inaccessible document can cost between $8 - $30 per page and roughly $60/hour to complete. Using the Accessibility Checker is a cost effective step to creating accessible documents. When all editing is complete, scan the document.&nbsp;Click <strong>File</strong>, then <strong>Check for Issues</strong> and select the <strong>Check Accessibility</strong> from the drop-down menu. The Accessibility Checker results can be categorized by the impact on the viewer:</p>
+        <ul>
+        <li>Errors: this content will be very difficult or inaccessible to people with disabilities to view
+        <ul>
+        <li>Example: missing alt text</li>
+        </ul>
+        </li>
+        <li>Warnings: this content, in most cases, will be difficult for people with disabilities to view
+        <ul>
+        <li>Example: objects not inline</li>
+        </ul>
+        </li>
+        <li>Tips: this content is available to people with disabilities, however better organization is suggested</li>
+        <ul>
+        <li>Example: skipping headings from H1 to H3</li>
+        </ul>
+        </ul>
+        <p>[[{"type":"media","view_mode":"default","fid":"533071","attributes":{"alt":"Check for Accessibility- Accessibility Checker menu","border":"0","class":"media-image","height":"297","style":"border: 1px solid black;","typeof":"foaf:Image","width":"295"}}]]</p>
+        <p>When the scan is complete, the results will display on the screen. Click on each error and the document will jump to indicate exactly where the error on the page is occurring. Complete any missing alternative texts, misalignments, headings etc.&nbsp;All errors should be resolved before proceeding.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533076","attributes":{"alt":"Accessibility Checker Results list","border":"0","class":"media-image","height":"315","style":"border: 1px solid black;","typeof":"foaf:Image","width":"212"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <h3><a id="A8"></a>Converting to PDF</h3>
+        <p>Converting a Word document to a PDF allows is a common best practice when preparing accessible documents. However, other benefits to this final step include:</p>
+        <ul>
+        <li>The content is a read-only format</li>
+        <li>Portable and responsive on most devices</li>
+        <li>Maintains any links, graphics, attachments and tables</li>
+        <li>Allows viewer to read content without purchasing Microsoft applications</li>
+        </ul>
+        <p>Click the <strong>Acrobat</strong> plugin tab on the toolbar. To double check the accessibility settings are enabled, click preferences.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533081","attributes":{"alt":"Acrobat preferences","border":"0","class":"media-image","height":"89","style":"border: 1px solid black;","typeof":"foaf:Image","width":"532"}}]]</p>
+        <p>&nbsp;Be sure the box titled <strong>Enable Accessibility and Reflow with tagged Adobe PDF</strong> is checked and click <strong>OK</strong>.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533086","attributes":{"alt":"Save to enable accessibility","border":"0","class":"media-image","height":"333","style":"border: 1px solid black;","typeof":"foaf:Image","width":"341"}}]]</p>
+        <p>Click <strong>Create PDF</strong> on the Acrobat toolbar.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533091","attributes":{"alt":"Click create PDF","border":"0","class":"media-image","height":"88","style":"border: 1px solid black;","typeof":"foaf:Image","width":"532"}}]]</p>
+        <p>Be sure the save as type is set to PDF and click <strong>Save</strong>.</p>
+        <p>[[{"type":"media","view_mode":"default","fid":"533101","attributes":{"alt":"Save as PDF","border":"0","class":"media-image","height":"140","style":"border: 1px solid black;","typeof":"foaf:Image","width":"740"}}]]</p>
+<a href="#beginning"><div class="top"> back to top </div></a><br><br>
+        <br>
+        <h2 style="color: #ffffff; background-color: #cf0a2c;"> Best Practices</h2>
+        <ul>
+        <li>Create accessible documents during the design/creation process</li>
+        <li>Use the <strong>Accessibility Checker</strong> to scan your documents</li>
+        <li>Convert Word document to a PDF for mobility and accessibility</li>
+        <li>Save the file name as Word-Document-Accessibility.docx or Word_Document_Accessibility.docx</li>
+        <li>Consider Readability for content development</li>
+        </ul>
+        <p>&nbsp;</p>
+        <a href="#beginning"><div class="top"> back to top </div></a>
+<br>
+        <h2 style="color: #ffffff; background-color: #cf0a2c;"><a id="A9"></a> Tutorial</h2>
+        <p><iframe src="https://www.youtube.com/embed/dC8sfkQJcpA" height="315" width="560"></iframe></p>
+        <p>Video Credit: Algonquin College- <a href="https://youtu.be/dC8sfkQJcpA">Creating Accessible Word Documents</a> (4:51 minutes with closed captioning)</p>
+        <p>&nbsp;</p>
+        <h2 style="color: #ffffff; background-color: #cf0a2c;"> Resources</h2>
+        <p><a href="http://webaim.org/techniques/word/word2016win" target="_blank">WebAIM Word 2016</a></p>
+        <p><a href="http://webaim.org/techniques/word/" target="_blank">WebAIM Word Techniques</a></p>
+        <p>&nbsp;</p>
+        <a href="#beginning"><div class="top"> back to top </div></a>
+<br>
+        <h2 style="color: #ffffff; background-color: #cf0a2c;"> Related Topics</h2>
+        <p><a title="Describing Images" href="https://w1dev.csun.edu/node/116206/describing-images" target="_self">Describing Images</a></p>
+        <p><a href="https://www.csun.edu/universaldesigncenter/best-practices-accessible-images" target="_blank">Best Practices for Readability</a></p>
+        <p><a title="PDF Accessibility" href="https://w1dev.csun.edu/node/116206/guide-creating-accessible-pdf-documents" target="_self">PDF Accessibility</a></p>
+        <p><a href="https://w1dev.csun.edu/node/116206/udc-training-calendar" target="_self">Document Accessibility Training</a></p>
+        <a href="#beginning"><div class="top"> back to top </div></a>
+<br><br>
+    </body>
