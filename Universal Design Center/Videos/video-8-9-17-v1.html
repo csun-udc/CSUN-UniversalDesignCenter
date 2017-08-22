@@ -6,13 +6,38 @@
 </ul>
 <p>&nbsp;</p>
 <style><!--
-a.divTableCell { text-decoration: none; color: #FFFFFF; font-size:small; } .divTableCell:focus, .divTableCell:hover { font-weight: bold; font-size: 113%; } .DivRowBox:focus, .DivRowBox:hover{ font-weight: bold; font-size: 113%; box-shadow: 3px 3px 5px #666666; border: 1px solid #DDDDDD; } .DivRowBox{ display: inline-block; width: 33%; background-color: #5B4C93; border: 1px solid grey; height: 30px; line-height: 30px; font-weight: bold; text-shadow: 1px 1px #000000; text-align: center; } .divTableRow { border: 2px; height: 37px; }
+a.divTableCell { text-decoration: none; color: #FFFFFF; font-size:small; } .divTableCell:focus, .divTableCell:hover { font-weight: bold; font-size: 113%; } .DivRowBox:focus, .DivRowBox:hover{ font-weight: bold; font-size: 113%; box-shadow: 3px 3px 5px #666666; border: 1px solid #DDDDDD; } .DivRowBox{ display: inline-block; width: 33%;  background-color: #5B4C93; border: 1px solid grey; height: 30px; line-height: 30px; font-weight: bold; text-shadow: 1px 1px #000000; text-align: center; } .divTableRow { border: 2px; height: 37px; }
+#VideoDiv {
+    margin-left:15%;
+}
+@media (max-width: 950px) {
+  .divTableRow {
+      border: 2px;
+      height: 100%;
+  }
+ #VideoDiv{
+     margin-left:0%;
+}
 
+  .DivRowBox {
+    display: inline-block;
+    width: 100%;
+    background-color: #5B4C93;
+    border: 1px solid grey;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
 --></style>
 
 
 <div class="divTableRow">
-<div class="DivRowBox" style = "margin-left: 15%"><a class="divTableCell" href="https://www.csun.edu/universaldesigncenter/captioning">Captioning</a></div>
+<div class="DivRowBox" id="VideoDiv"><a class="divTableCell" href="https://www.csun.edu/universaldesigncenter/captioning">Captioning</a></div>
 <div class="DivRowBox"><a class="divTableCell" href="https://www.csun.edu/universal-design-center/audio-descriptions-accessibility">Audio Description</a></div>
 </div>
 

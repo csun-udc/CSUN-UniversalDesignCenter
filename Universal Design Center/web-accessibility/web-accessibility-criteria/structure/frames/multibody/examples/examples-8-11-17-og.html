@@ -12,72 +12,26 @@
     background-color: #FFFF80;
   }
 
-  .toggle-check {
-    margin-top: -1.1em;
-    margin-left: 350px;
-    position: absolute;
-    height: 16px;
-    width: 16px;
-  }
-
-  .expandable {
-    margin-top: 5px;
-    border: 1px solid grey;
-    background: #FED081;
-    opacity: 0;
-    max-height: 0px;
-    border: 1px solid #000;
-    overflow: hidden;
-    transition: opacity 1.5s linear, max-height 1s;
-  }
-
-  .expandable p {
-    padding: 10px;
-    margin: 0;
-  }
-
-  input[type=checkbox]:checked + div#info1Content {
-    Display: block;
-    background: #FED081;
-    max-height: 300px;
-    opacity: 1;
-  }
-
-  input[type=checkbox]:checked + div#info2Content {
-    Display: block;
-    background: #FED081;
-    max-height: 300px;
-    opacity: 1;
-  }
-
   -->
 </style>
 
-<h3 id="beginning2">Manual Testing</h3>
-<p style="padding-left: 30px;">Review the web pages' source code to view the frame’s title and verify if the title is descriptive. For example, a non-descriptive title for a frame is “Frame 1”. A descriptive frame title would be “Go Matadors Facebook Feed”&nbsp;</p>
-<h3>Automated Testing Tools</h3>
-<h4 style="padding-left: 30px;"><a href="https://chrispederick.com/work/web-developer/">Web Developer Toolbar</a></h4>
-<p style="padding-left: 30px;">Using the Web Accessibility Toolbar, navigate to the website on your web browser. Select <strong>Outline</strong> menu and select <strong>Outline Frames</strong>, this will then highlight all frames present on the webpage.</p>
-<p style="padding-left: 30px;">[[{"type":"media","view_mode":"default","fid":"532761","attributes":{"alt":"Web Developer Toolbar- Outline Frames ","border":"0","class":"media-image","height":"155","style":"display: block; margin-left: auto; margin-right: auto;","typeof":"foaf:Image","width":"794"}}]]</p>
+<p id="beginning">Below is an example of the Universal Design Center homepage within an iframe. The iframe's title attribute is<em>&nbsp;</em><span><strong><em>title="Universal Design Center Homepage"</em></strong>. The title allows users to know what content is presented within the iframe. The name of the iframe is&nbsp;<span><strong><em>name="UDC"</em></strong>&nbsp;this name differentiates&nbsp;the iframe from other iframes that may be present within the page. In addition, the frame has the <em>noframes</em> attribute with a link to the website that is contained in the frame. &nbsp;</span></span>
+</p>
 
-<label for="more-info1" id="info1"><u>Read more about the Web Developer Toolbar image</u></label>
-<input type="checkbox" name="toggle" id="more-info1" class="toggle-check">
+<p>
+  <iframe title="Universal Design Centerhomepage" name="UDC" src="https://www.csun.edu/universal-design-center" height="500" width="100%"> &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a
+    href="https://www.csun.edu/universal-design-center"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    Go to Universal Design Center homepage&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</iframe>
+</p>
 
-<div class="expandable" id="info1Content">
-  <p>This Web Developer Toolbar image shows the menu under the "Outline" tab menu, highlighting "Outline Frames".</p>
+<div style="background-color: #ffffff; width: 600px; height: 200px; border: 1px solid grey; border-radius: 10px; text-align: left; position: relative;">
+
+  <h4 style="padding-left: 30px;"><span style="color: #c00000;"> Source Code: </span></h4> 
+  <p style="margin-left: 30px;"><span style="color: #000080;"> <code> <strong> &lt;iframe </strong> </code></span><code> <span style="color: #c00000;"> <strong> title=</strong></span> <strong>"Universal Design Center Homepage" </strong> <span style="color: #105168;"> <strong> name= </strong> </span> "<strong>UDC</strong>" src= "https://www.csun.edu/universal-design-center" height="500" width="100%" <strong><span style="color: #000080;">&gt; </span> </strong> <strong> &lt;a </strong> href="https://www.csun.edu/universal-design-center"&gt; <span style="color: #6600cc;"> <strong> Go to Universal Design Center Homepage </strong> </span> <strong>&lt;/a&gt;</strong> <span style="color: #000080;"><strong> &lt;/iframe&gt;</strong> </span></code></p>
 </div>
 
-<h4 style="padding-left: 30px;"><a href="http://wave.webaim.org/">WebAim WAVE Toolbar</a></h4>
-<p style="padding-left: 30px;">Activate the WAVE toolbar and navigate to the Styles page. In the Details section, navigate to Structural Elements then verify if any frames are present in the page.&nbsp;</p>
-<p style="padding-left: 30px;">The following are accessibility errors and Structural &amp; Semantic elements found by WAVE:&nbsp;</p>
-<p style="padding-left: 60px;">[[{"type":"media","view_mode":"media_large","fid":"532771","attributes":{"alt":"Frame missing title error","border":"0","class":"media-image","height":"20","typeof":"foaf:Image","width":"20"}}]]<strong>:&nbsp;</strong>A frame does not have a "title" attribute
-  or value.</p>
-<p style="padding-left: 60px;">[[{"type":"media","view_mode":"media_large","fid":"532746","attributes":{"alt":"Inline Frame","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]<b>:&nbsp;</b>An inline frame (iframe) is present<b>.</b></p>
-<h4 style="padding-left: 30px;">Chrome Ad-on</h4>
-<p style="padding-left: 30px;">To remove iframes in a page use the chrome ad-on: <a href="https://chrome.google.com/webstore/detail/remove-iframe/pbaicmldjijbgdadgepfemcolbpbdfai?hl=en">Remove iFrame</a></p>
-<h4 style="padding-left: 30px;"><a href="https://www.csun.edu/universal-design-center/compliance-sheriff">Compliance Sheriff</a></h4>
-<p style="padding-left: 30px;">To test for frames and iframes in Compliance Sheriff the checkpoint is Section I. For more information regarding the checkpoints visit the <a href="https://www.csun.edu/universal-design-center/compliance-sheriff-checkpoints">CSU ATI Accessibility Requirements</a>  page.&nbsp;</p>
-<a href="#beginning2">
+<a href="#beginning">
   <div class="top"> back to top </div>
 </a>
+
 <br>
