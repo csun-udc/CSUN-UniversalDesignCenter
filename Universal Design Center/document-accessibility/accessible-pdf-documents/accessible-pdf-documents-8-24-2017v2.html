@@ -1,0 +1,320 @@
+<style><!--
+.toggle-check {
+margin-top: -1.1em;
+margin-left: 300px;
+position: absolute;
+height: 16px;
+width: 16px;
+}
+.expandable {
+margin-top: 5px;
+border:1px solid grey;
+background: #FED081;
+opacity:0;
+max-height:0px;
+border:1px solid #000;
+overflow:hidden;
+transition:opacity 1.5s linear, max-height 1s;
+}
+#info{
+  cursor:pointer;
+}
+.expandable p {
+padding:10px;
+margin:0;
+}
+input[type=checkbox]:checked + div#info1Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info2Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info3Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info4Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info5Content {
+Display: block;
+background:#FED081;
+max-height: 1500px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info6Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info7Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+input[type=checkbox]:checked + div#info8Content {
+Display: block;
+background:#FED081;
+max-height: 1000px;
+opacity:1;
+}
+.top{
+border: 1px solid grey; border-radius: 5px;
+width: 94px;
+text-align: center;
+background-color: #F3F3FF;
+float: right;
+}
+
+:target {
+background-color: #FFFF80;
+}
+
+--></style>
+
+<h2 style="color: #ffffff; background-color: #cf0a2c;"><a id="T2"></a> &nbsp;Overview</h2>
+<span id="PDF-overview"></span>
+<p>This is an overview of creating accessible PDF documents using Adobe Acrobat Pro DC. Accessible PDF documents allow information to be readily available for assistive technology. Screen readers can easily navigate the content when accessibility is considered during the design process. This will not only benefit people with disabilities, it will improve overall usability for all users. This information will cover using the built in Action Wizard and Accessibility Checker in Adobe Acrobat Pro DC. This tutorial will also highlight basic PDF modifications for accessibility issues including accessibility set up, logical reading order, title, bookmarks, color contrast, images, forms (basic), tables (basic), lists, and headings. Use the <a href="https://www.csun.edu/universal-design-center/pdf-checklist">PDF Checklist</a> in conjunction with this tutorial for a quick high-level view of each checkpoint to complete.</p>
+<p>Please note: Before proceeding with the following overview, please be sure to begin this tutorial with an accessible Word document. The <a href="https://www.csun.edu/universal-design-center/creating-accessible-word-2016-documents" target="_self">Creating an Accessible Word Document</a> overview will include general document accessibility and how to convert to a PDF.</p>
+<h2 style="color: #ffffff; background-color: #cf0a2c;">&nbsp;In this Tutorial</h2>
+<ul>
+<li><a href="#A30">Converting to a PDF</a></li>
+<li><a href="#A31">Action Wizard Set Up</a></li>
+<li><a href="#A32">Run Action Wizard</a></li>
+<li><a href="#A33">Accessibility Issues</a></li>
+<li><a href="#A34">Best Practices</a></li>
+<li><a href="#A35">Video Tutorial</a></li>
+</ul>
+<h2 style="color: #ffffff; background-color: #cf0a2c;">&nbsp; Creating an Accessible PDF</h2>
+<h3><a id="A30"></a>Converting to a PDF</h3>
+<p>The <a href="https://www.csun.edu/universal-design-center/creating-accessible-word-2016-documents#A8">Creating an Accessible Word Document</a>&nbsp;covers how to create and convert a document to a PDF.</p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<h3><a id="A31"></a>Action Wizard Set Up</h3>
+<p>With the newly converted PDF file open, first-time Acrobat Pro DC users will need to add some tools to the <strong>Action List</strong> located in the right-hand pane. To add additional tools, click <strong>Tools</strong> on the toolbar.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533106","attributes":{"alt":"Toolbar with tools highlighted","border":"0","class":"media-image","height":"39","style":"border: 1px solid black;","typeof":"foaf:Image","width":"682"}}]]</p>
+<p>Click <strong>Add</strong> for Action Wizard. The icon can also be added with a drag and drop into the Action List. Another useful tool that can be added is the <strong>Accessibility</strong> tool.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533111","attributes":{"alt":"Adding action wizard","border":"0","class":"media-image","height":"114","style":"border: 1px solid black;","typeof":"foaf:Image","width":"85"}}]]</p>
+<p>Navigate back to the <strong>Document</strong> and the selected tools will be added to the <strong>Action List</strong>.</p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<h3><a id="A32"></a>Running Action Wizard</h3>
+<p>The Make Accessible feature of the Action Wizard is designed to crawl through a PDF to detect headings, images, tags, reading order, etc. The easy to follow prompts will guide a user through the process of making the PDF accessible. This tool is ideal for basic PDF users.</p>
+<p>Click <strong>Action Wizard</strong> and select <strong>the Make Accessible</strong> from the Actions List (right-hand pane) and then click <strong>Start</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533116","attributes":{"alt":"Action list with make accessible selected","border":"0","class":"media-image","height":"386","style":"border: 1px solid black;","typeof":"foaf:Image","width":"187"}}]]</p>
+<p>After clicking <strong>Start</strong>, the Action Wizard will walk through each of the following criteria to build an accessible PDF.</p>
+<p>&nbsp;</p>
+<h4><a id="AA1"></a>Add Document Description</h4>
+<p>The document description gives the document a proper title to be recognized by assistive technology. Uncheck the <strong>Leave As Is</strong> box and provide a title to the document. The remaining fields can remain blank and checked.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533121","attributes":{"alt":"Title the document","border":"0","class":"media-image","height":"391","style":"border: 1px solid black;","typeof":"foaf:Image","width":"329"}}]]</p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<h4>Recognize Text using OCR</h4>
+<p>The recognize text option will scan the document using the selected language. Select the desired <strong>Language</strong> and click <strong>OK</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533126","attributes":{"alt":"Recognize text language","border":"0","class":"media-image","height":"209","style":"border: 1px solid black;","typeof":"foaf:Image","width":"377"}}]]</p>
+<p>&nbsp;</p>
+<h4><a id="AA2"></a>Detect Form Fields</h4>
+<p>The Wizard will automatically detect form fields on the PDF. If the document has spaces for form fields, click <strong>Yes, Detect Form Fields</strong>. If not, click <strong>No, Skip this Step</strong>.</p>
+<p>&nbsp;</p>
+<h4>Set Reading Language</h4>
+<p>Click the desired <strong>Reading Language</strong> and click <strong>OK</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533256","attributes":{"alt":"Set reading language","border":"0","class":"media-image","height":"100","style":"border: 1px solid black;","typeof":"foaf:Image","width":"178"}}]]</p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<h3><a id="AA3"></a>Set Alternate Text</h3>
+<p>The Action Wizard can be set up to always detect for any image present in the document. Click <strong>OK</strong> to scan the PDF for missing alternate texts.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533141","attributes":{"alt":"Set alternate text","border":"0","class":"media-image","height":"179","style":"border: 1px solid black;","typeof":"foaf:Image","width":"528"}}]]</p>
+<p>If alternative text is missing, a window will appear to set the alternative text for each image. Type the description of each image in the box and toggle between images using the right and left arrow buttons. Click <strong>Save &amp; Close</strong> when all images have proper descriptions. The image section on <a href="https://www.csun.edu/universal-design-center/creating-accessible-word-2016-documents#A3">Creating Accessible Word Documents</a> provides additional information about writing meaningful alternative text.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533146","attributes":{"alt":"Write alternate Text","border":"0","class":"media-image","height":"195","style":"border: 1px solid black;","typeof":"foaf:Image","width":"268"}}]]</p>
+<h4>Run Accessibility Full Check</h4>
+<p>The Accessibility Full Checker will run a full scan for accessibility. Click <strong>Start Checking</strong> to complete the scan. The results will display on the screen.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533151","attributes":{"alt":"Run accessibility full check","border":"0","class":"media-image","height":"503","style":"border: 1px solid black;","typeof":"foaf:Image","width":"475"}}]]</p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<h3><a id="A33"></a>Accessibility Issues</h3>
+<p>After running the final step in the <strong>Action Wizard</strong> with the <strong>Accessibility Checker</strong>, the results are prompted on screen for review. The <strong>Accessibility Checker</strong> will detect and prompt any remaining issues. These issues are identified using specific icons to represent each type of issue: <strong>Passed</strong> (green check mark), <strong>Needs Manual Check</strong> (question mark), and <strong>Failed</strong> (X).</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533261","attributes":{"alt":"Accessibility Issues Results","border":"0","class":"media-image","height":"367","style":"border: 1px solid black;","typeof":"foaf:Image","width":"246"}}]]</p>
+<p><em>Important:</em> any issue with a <strong>Needs Manual Check</strong> or <strong>Failed</strong> will need to be fixed before the document can be considered accessible.</p>
+<p>Click the <strong>X</strong> in the right-hand pane to close the <strong>Action Wizard.</strong></p>
+<h4>Recommendation</h4>
+<p>Using the Accessibility Checker Results, begin correcting any issues. Work top to bottom or in sections of the document. If the issue requires a Needs Manual Check, complete the manual check (use guide below for instructions). Once checked, right-click the line and select Pass. This action will turn the question mark into a green check.<strong><br /></strong></p>
+<p>[[{"type":"media","view_mode":"default","fid":"533266","attributes":{"alt":"Accessibility Results Manual Check","border":"0","class":"media-image","height":"260","style":"border: 1px solid black;","typeof":"foaf:Image","width":"177"}}]]</p>
+
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+<p><a id="AA4"></a>The remainder of this guide will walk through fixing any additional accessibility issues for various errors. Click the title to open a detailed description on how to fix the error:</p>
+
+<label for="more-info1" id="info"><u> Reading Order</u></label>
+<input type="checkbox" name="toggle" id="more-info1" class="toggle-check">
+
+<div class="expandable" id="info1Content">
+<p><a id="AA5"></a>Click Reading Order from the options provided. This tool will be used to correct the majority of the remaining accessibility issues. To make adjustments to the reading order, click <strong>Structure Types</strong> under <strong>Show Page Content Groups</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533271","attributes":{"alt":"Touch up reading order options","border":"0","class":"media-image","height":"427","style":"border: 1px solid black;","typeof":"foaf:Image","width":"304"}}]]</p>
+<p>This will adjust the tags associated with each item on the page to display structure types i.e. headings, paragraphs, tables, etc. Starting from the top of the document, re-structure any missing or mislabeled header, paragraphs, table, etc.</p>
+</div>
+<br />
+
+<label for="more-info2" id="info"><u> Headings</u></label>
+<input type="checkbox" name="toggle" id="more-info2" class="toggle-check">
+
+<div class="expandable" id="info2Content">
+<p>The title of the document (shown below) is mislabeled as a <strong>Paragraph</strong> rather than <strong>Heading 1</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533276","attributes":{"alt":"Heading error","border":"0","class":"media-image","height":"58","style":"border: 1px solid black;","typeof":"foaf:Image","width":"646"}}]]</p>
+<p>To fix the issue, using the cursor select the entire grayed out box around the title. Click the proper heading from the <strong>Touch Up Reading Order </strong>options- in this case <strong>Heading 1</strong>. Continue adjusting and/or adding proper headings.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533281","attributes":{"alt":"Touch up reading order-Heading 1","border":"0","class":"media-image","height":"187","style":"border: 1px solid black;","typeof":"foaf:Image","width":"265"}}]]</p>
+<h4>Example of Headings</h4>
+<p>The heading is separate from the paragraph text.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533286","attributes":{"alt":"Header example","border":"0","class":"media-image","height":"138","style":"border: 1px solid black;","typeof":"foaf:Image","width":"298"}}]]</p>
+</div>
+<br />
+
+<label for="more-info3" id="info"><u> Tables</u></label>
+<input type="checkbox" name="toggle" id="more-info3" class="toggle-check">
+
+<div class="expandable" id="info3Content">
+<p>Tables will need specific headings within the table. Click the <strong>Table</strong> on the document and click <strong>Table Editor</strong> on the <strong>Touch Up Reading Order</strong> window.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533291","attributes":{"alt":"Table Editor","border":"0","class":"media-image","height":"137","style":"border: 1px solid black;","typeof":"foaf:Image","width":"635"}}]]</p>
+<p>The table will turn a red color and the cursor will change slightly. Using the cursor, click inside one of the headings and drag the cursor to the opposite side- only selecting the top cells. Note: if the cursor clicks outside the table, the red box will disappear. Once only the top row is selected it will change colors.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533296","attributes":{"alt":"Set Table Headers","border":"0","class":"media-image","height":"99","style":"border: 1px solid black;","typeof":"foaf:Image","width":"762"}}]]</p>
+<p>Right click the table to open a small drop-down and click <strong>Table Cell Properties</strong>. Change the Type to <strong>Header Cell</strong>, the Scope to <strong>Column</strong>, and click<strong> OK</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533301","attributes":{"alt":"Table cell properties","border":"0","class":"media-image","height":"144","style":"border: 1px solid black;","typeof":"foaf:Image","width":"336"}}]]</p>
+</div>
+<br />
+
+<label for="more-info4" id="info"><u> Images</u></label>
+<input type="checkbox" name="toggle" id="more-info4" class="toggle-check">
+
+<div class="expandable" id="info4Content">
+<p>When alternative text is placed on an image in Word, the alt text will automatically transfer during the conversion to PDF. If an alternative text is needed after the fact, use the <strong>Accessibility Tool</strong> and select <strong>Set Alternate Text</strong>. A window will prompt for any alternative text needed.</p>
+<h4>Additional Considerations</h4>
+<ul>
+<li>Alternative text is extremely critical for images used for instructional purposes. For assessment statements such as, “Use the graph to answer questions 1-3” an alternative text is required for the graph.</li>
+<li>Complex (Math and Scientific) graphs and charts may require a caption (for larger amounts of information) to write a detailed descriptions</li>
+<li>Decorative images, such as line dividers, do not require a written description or alt text</li>
+</ul>
+<h4>Best Practices</h4>
+<ul>
+<li>Be clear and specific</li>
+<li>Use phrasing to include inferred information</li>
+<li>If the image is for instructional purposes, be sure to include necessary information to answer questions</li>
+</ul>
+</div>
+<br />
+
+<label for="more-info5" id="info"><u> Forms (Basic)</u></label>
+<input type="checkbox" name="toggle" id="more-info5" class="toggle-check">
+
+<div class="expandable" id="info5Content">
+<p>When the Action Wizard is launched, the tool will prompt a window asking if form fields are present. If “yes” is selected, the tool will automatically create basic form fields.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533326","attributes":{"alt":"Basic Form cells","border":"0","class":"media-image","height":"153","style":"border: 1px solid black;","typeof":"foaf:Image","width":"631"}}]]</p>
+<p>To make form fields accessible, each field will need a text description. Click <strong>Prepare Form</strong>, right-click the form field and select <strong>Properties</strong>. Enter a description in the <strong>Tooltip</strong> field.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533321","attributes":{"alt":"Enter tooltip","border":"0","class":"media-image","height":"285","style":"border: 1px solid black;","typeof":"foaf:Image","width":"293"}}]]</p>
+<p>However, the tool will automatically detect any and <em>all</em> form field areas. Form fields are indicated with a light purple color. Review the document to be sure all form fields are desired.</p>
+<h4>Remove Undesired Form Fields</h4>
+<p>For example, tables can be detected as having multiple form fields. To remove any undesired form fields open the <strong>Prepare Form</strong> tool from the right-hand pane. The table will change in appearance.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533331","attributes":{"alt":"Sample Table- highlighted","border":"0","class":"media-image","height":"102","style":"border: 1px solid black;","typeof":"foaf:Image","width":"679"}}]]</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533336","attributes":{"border":"0","class":"media-image","height":"100px","width":"100px"}}]]</p>
+<p>Select the form fields to be removed and click <strong>Delete</strong>.</p>
+</div>
+<br />
+
+<label for="more-info6" id="info"><u> Color Contrast</u></label>
+<input type="checkbox" name="toggle" id="more-info6" class="toggle-check">
+
+<div class="expandable" id="info6Content">
+<p>Typically, color contract requires a manual check. A manual check is taking human consideration rather than the accessibility scanning tool. Be sure all font color has enough contrast. Once a full manual scan of the document has been complete, right-click the <strong>Color Contrast</strong> on the <strong>Accessibility Checker Results</strong> and select <strong>Pass</strong>.</p>
+<h4>Examples of Good Color Contrast</h4>
+<p>[[{"type":"media","view_mode":"media_original","fid":"532366","attributes":{"alt":"White text on a dark background","border":"0","class":"media-image","height":"22","typeof":"foaf:Image","width":"201"}}]]</p>
+<p>[[{"type":"media","view_mode":"media_original","fid":"532371","attributes":{"alt":"Dark text on a light background","border":"0","class":"media-image","height":"22","typeof":"foaf:Image","width":"189"}}]]</p>
+</div>
+<br />
+
+<label for="more-info7" id="info"><u> Links</u></label>
+<input type="checkbox" name="toggle" id="more-info7" class="toggle-check">
+
+<div class="expandable" id="info7Content">
+<p>To identify links in Acrobat Pro DC, click the <strong>Edit PDF</strong> on the right-hand pane. Click the <strong>Link</strong> dropdown and select <strong>Add/Edit Web or Document Link</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533341","attributes":{"alt":"Toolbar with Links highlighted","border":"0","class":"media-image","height":"37","style":"border: 1px solid black;","typeof":"foaf:Image","width":"622"}}]]</p>
+<p>All functioning links will have a thin black rectangle around them. Note: creating functioning links in a Word document will carry over to the converted PDF.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533351","attributes":{"alt":"Hyperlink visual","border":"0","class":"media-image","height":"79","style":"border: 1px solid black;","typeof":"foaf:Image","width":"410"}}]]</p>
+<h4>Add or edit Links</h4>
+<p>Using the <strong>Edit PDF</strong> on the right-hand pane, select <strong>Link</strong> and click <strong>Add/Edit Web or Document Link.</strong> Draw a rectangle around the desired wording/image using the cross hair cursor. The <strong>Create Link</strong> window will appear to adjust appearance and action. The most commonly used options are invisible rectangle and inset (will act like a button press). If linking to a website, be sure to select <strong>Open a Web Page</strong> for the action type. Click <strong>Next</strong>, then enter the URL and click <strong>OK</strong>.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533356","attributes":{"alt":"Link opening options","border":"0","class":"media-image","height":"275","style":"border: 1px solid black;","typeof":"foaf:Image","width":"303"}}]]</p>
+<p>The completed link will have a blue rectangle surrounding the words. An underline will display beneath the functioning link.</p>
+<p>[[{"type":"media","view_mode":"default","fid":"533361","attributes":{"alt":"Linked text","border":"0","class":"media-image","height":"35","style":"border: 1px solid black;","typeof":"foaf:Image","width":"316"}}]]</p>
+</div>
+<br />
+
+<label for="more-info8" id="info"><u> Footnotes/References</u></label>
+<input type="checkbox" name="toggle" id="more-info8" class="toggle-check">
+
+<div class="expandable" id="info8Content">
+<p>Footnotes or references that are extraneous can be removed from the reading order. Highlight the footnote or reference and click <strong>Background</strong> on the <strong>Touch Up Reading Order</strong>.</p>
+</div>
+<br />
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+
+
+<h2 style="color: #ffffff; background-color: #cf0a2c;"><a id="A34"></a> &nbsp; Best Practices</h2>
+<ul>
+<li>Starting with an accessible Word document will limit the number of additional edits in Acrobat Pro DC</li>
+<li>The Read Out Load tool mimics similar speech as screen readers and allows the author to make any necessary adjustments before publishing the PDF.Launch the Read Out Load tool- click <strong>View</strong>, <strong>Read Out Load</strong>, then <strong>Activate Read Out Load</strong> (Shift+Ctrl+Y). To begin reading the PDF, click <strong>View</strong>, <strong>Read Out Load</strong>, then <strong>Read this Page Only</strong> (Shift+Ctrl+V).&nbsp;</li>
+<li>Using the Action Wizard and Accessibility Checker will improve accessibility of the document</li>
+<li>Use the built-in Read Out Loud tool to fully understand the reading order of the document</li>
+</ul>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+<h2 style="color: #ffffff; background-color: #cf0a2c;"><a id="A35"></a>&nbsp; Tutorial</h2>
+<p><iframe src="https://www.youtube.com/embed/_sFDk97j7zQ" height="315" width="560"><p><a href="https://www.youtube.com/embed/_sFDk97j7zQ"> Creating an Accessible PDF in Acrobat</a></p></iframe></p>
+<p>Video Credit: Algonquin College- <a href="https://youtu.be/_sFDk97j7zQ">Creating an Accessible PDF in Acrobat</a> (3:50 minutes with closed captioning)</p>
+<p><span>&nbsp;</span></p>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+<h2 style="color: #ffffff; background-color: #cf0a2c;"> &nbsp;Resources</h2>
+<ul>
+<li><a href="https://www.csun.edu/universal-design-center/pdf-checklist">PDF Checklist</a></li>
+<li><a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Adobe: Create and Verify PDF Accessibility</a></li>
+<li><a href="http://www.ncdae.org/resources/cheatsheets/acrobat-xi.php">NCDAE: Creating Accessible PDF Documents</a></li>
+<li><a href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Coblis Color Blindness Simulator</a></li>
+</ul>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
+<h2 style="color: #ffffff; background-color: #cf0a2c;"> &nbsp;Related Topics</h2>
+<ul>
+<li><a href="https://www.csun.edu/universal-design-center/creating-accessible-word-2016-documents">Creating Accessible Word Documents</a></li>
+<li><a href="https://www.csun.edu/universal-design-center/creating-accessible-pdf-forms">Creating Accessible Forms</a></li>
+<li><a href="https://www.csun.edu/universal-design-center/word-and-pdf-accessibility">Document Accessibility Training</a></li>
+</ul>
+<a href="#PDF-overview"><div class="top"> back to top </div></a>
+<br />
+<br />
