@@ -1,0 +1,88 @@
+<style>
+  <!-- .toggle-check {
+    margin-top: -1.1em;
+    margin-left: 310px;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+  }
+
+  .expandable {
+    margin-top: 5px;
+    border: 1px solid grey;
+    background: #FED081;
+    opacity: 0;
+    max-height: 0px;
+    border: 1px solid #000;
+    overflow: hidden;
+    transition: opacity 1.5s linear, max-height 1s;
+  }
+
+  .expandable p {
+    padding: 10px;
+    margin: 0;
+  }
+
+  input[type=checkbox]:checked + div#info1Content {
+    Display: block;
+    background: #FED081;
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  input[type=checkbox]:checked + div#info2Content {
+    Display: block;
+    background: #FED081;
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  -->
+</style>
+
+
+<h3 id="beginning3">Manual Review</h3>
+<p>Testing for form accessibility requires a variety assessment including form field <strong>validation</strong>, <strong>navigation</strong>, <strong>user interaction</strong> and <strong>submission</strong> in order to meet form accessibility standards.
+  For a list of all items that must be considered, refer to the<a href="https://www.csun.edu/universal-design-center/best-parctices-accessible-forms"><b> Best Practices for Accessible Forms </b></a>page<b>.</b></p>
+<h3>Automated Testing Tools</h3>
+<h4 style="padding-left: 30px;"><a href="https://chrispederick.com/work/web-developer/">Web Accessibility Toolbar</a></h4>
+<ol>
+  <li>Open the Web Developer toolbar on your browser (Chrome, Firefox)</li>
+  <li>Navigate to the “Forms” column</li>
+  <li>Select “Display Form Details”</li>
+</ol>
+<p>[[{"type":"media","view_mode":"media_original","fid":"536711","attributes":{"alt":"Web Accessibility Toolbar Forms Tab","border":"0","class":"media-image","height":"210","typeof":"foaf:Image","width":"802"}}]]</p>
+<div>
+
+  <label for="more-info1" id="info1"><u>Read more about web accessibility toolbar</u></label>
+  <input type="checkbox" name="toggle" id="more-info1" class="toggle-check">
+
+  <div class="expandable" id="info1Content">
+    <p>Web accessibility toolbar menu with "Forms" highlighted, displaying all options under Forms.</p>
+  </div>
+</div>
+<h4 style="padding-left: 30px;"><a href="http://wave.webaim.org/">WebAIM WAVE Toolbar</a></h4>
+<ol>
+  <li>Activate the WAVE toolbar and navigate to the “Details” panel. In that panel</li>
+  <li>Navigate to the “Features” section</li>
+  <li>Review all form fields that are present in the webpage.</li>
+</ol>
+<p style="padding-left: 30px;">The following accessibility errors or alerts related to forms are found by WAVE:</p>
+<ul>
+  <ul>
+    <li>[[{"type":"media","view_mode":"default","fid":"608401","attributes":{"alt":"Missing form label icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Missing form label&nbsp;</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608356","attributes":{"alt":"Empty form label icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Empty form label</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608361","attributes":{"alt":"Multiple form labels icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Multiple form labels</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608396","attributes":{"alt":"Broken ARIA reference icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Broken ARIA reference&nbsp;</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608366","attributes":{"alt":"Broken ARIA reference icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Broken ARIA reference&nbsp;</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608406","attributes":{"alt":"Missing legend (alert) icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Missing legend (alert)&nbsp;</li>
+    <li>[[{"type":"media","view_mode":"media_original","fid":"613051","attributes":{"alt":"Orphaned form label (alert) icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Orphaned form label (alert)&nbsp;</li>
+    <li>[[{"type":"media","view_mode":"default","fid":"608376","attributes":{"alt":"Form element has title (alert) icon","border":"0","class":"media-image","height":"25","typeof":"foaf:Image","width":"25"}}]]&nbsp;Form element has title (alert)&nbsp;</li>
+  </ul>
+</ul>
+<h4 style="padding-left: 30px;"><a href="https://www.csun.edu/universal-design-center/compliance-sheriff">Compliance Sheriff</a></h4>
+<p style="padding-left: 30px;"><span>To test forms in Compliance Sheriff, select&nbsp;</span><strong>Section N&nbsp;</strong><span>checkpoint group in the&nbsp;</span><a href="https://www.csun.edu/universal-design-center/compliance-sheriff-checkpoints">CSU ATI Accessibility Requirements.</a></p>
+<a href="#beginning3">
+  <div class="top"> back to top </div>
+</a>
+<br>
