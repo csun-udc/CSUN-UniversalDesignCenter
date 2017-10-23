@@ -1,0 +1,156 @@
+<style>
+  <!-- a.PopButton {
+    color: #FFBF3B;
+    font-weight: bold;
+  }
+  
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: ;
+    padding: 35px;
+    border: ;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .PopButton {
+    padding: 8px 16px;
+    background: #033265;
+    text-decoration: none;
+    border: 1px solid #033265;
+    border-radius: 20px/40px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  .PopButton:hover,
+  .PopButton:focus {
+    background: #FFBF3B;
+    color: #033265;
+    font-weight: bold;
+    font-size: 14
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .popup .close:hover,
+  .popup .close:focus {
+    color: #ffffff;
+    background: #752F8A
+  }
+  
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .box {
+      width: 70%;
+    }
+    .popup {
+      width: 70%;
+    }
+  }
+  
+  -->
+</style>
+
+<p>Below is an image map of CSUN main departments. Each section of the image links to different CSUN websites.</p>
+
+<p><img alt="csun map" src="https://www.csun.edu/sites/default/files/image%20map_1.jpg" usemap="#Map" />
+  <map id="Map" name="Map">
+    <area title="CSUN " shape="rect" coords="193,14,333,76" href="#CSUN-img-map" alt="CSUN " target="_top" />
+    <area title="Athletics" shape="rect" coords="15,154,157,222" href="#Athletics-img-map" alt="Athletics" target="_top" />
+    <area title="Admissions" shape="rect" coords="191,152,335,220" href="#Admissions-img-map" alt="Admissions" target="_top" />
+    <area title="Students" shape="rect" coords="374,152,513,220" href="#Students-img-map" alt="Students" target="_top" />
+    <area title="Financial Aid" shape="rect" coords="194,254,334,318" href="#Financial-Aid-img-map" alt="Financial Aid" target="_top" />
+
+    <div id="CSUN-img-map" class="overlay">
+      <div class="popup">
+        <h2>CSUN</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">Learn more about <a href="http://www.csun.edu">CSUN</a>. Now you can close this window.</div>
+      </div>
+    </div>
+
+    <div id="Athletics-img-map" class="overlay">
+      <div class="popup">
+        <h2>Athletics</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">Learn more about <a href="http://www.gomatadors.com/">Athletics</a>. Now you can close this window.</div>
+      </div>
+    </div>
+
+    <div id="Admissions-img-map" class="overlay">
+      <div class="popup">
+        <h2>Admissions</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">Learn more about <a href="http://www.csun.edu/admissions-records">Admissions</a>. Now you can close this window.</div>
+      </div>
+    </div>
+
+    <div id="Students-img-map" class="overlay">
+      <div class="popup">
+        <h2>Students</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">Learn more about <a href="http://www.csun.edu/studentaffairs/">Students</a>. Now you can close this window.</div>
+      </div>
+    </div>
+
+    <div id="Financial-Aid-img-map" class="overlay">
+      <div class="popup">
+        <h2>Financial Aid</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">Learn more about <a href="http://www.csun.edu/financialaid">Financial Aid</a>. Now you can close this window.</div>
+      </div>
+    </div>
+
+
+
+  </map>
+</p>
