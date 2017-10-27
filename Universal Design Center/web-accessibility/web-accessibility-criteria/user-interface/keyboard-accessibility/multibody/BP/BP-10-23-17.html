@@ -1,0 +1,42 @@
+<style>
+  <!-- .top {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 94px;
+    text-align: center;
+    background-color: #F3F3FF;
+    float: right;
+  }
+  
+  :target {
+    background-color: #FFFF80;
+  }
+  
+  -->
+</style>
+
+<p>The best practices for keyboard accessibility&nbsp;include&nbsp;the following:&nbsp;</p>
+<span id="KBA-best-practices"></span>
+<ul>
+  <li>All interactive content should be accessible via a keyboard interface.</li>
+  <li>The keyboard focus should be visible for all sighted users. Although the focus varies from browser to browser we recommend using CSS to make the keyboard focus more visible by adding a background color or any style to make the focus visible.</li>
+  <li>To ensure keyboard focus is present on a page avoid using the <code><strong>outline:none</strong> </code>attribute because it removes the keyboard focus on a webpage.</li>
+  <li>The tab order should have the same structure of reading a book. It should be from left to right from top to bottom.</li>
+  <li>To adjust the tab, order the following methods can be applied using the <code><strong>tabindex attribute<span style="color: #cf0a2c;">*</span></strong></code>: &nbsp;</li>
+  <ul>
+    <li>tabindex="1" (or any number greater than 1) defines an explicit tab order.</li>
+    <li>tabindex="0" allows elements besides links and form elements to receive keyboard focus. It does not change the tab order, but places the element in the logical navigation flow, as if it were a link on the page.</li>
+    <li>tabindex="-1" allows things besides links and form elements to receive "programmatic" focus, meaning focus can be set to the element through scripting, links, etc.</li>
+  </ul>
+  <li>To make it easier to navigate via the keyboard provide a "skip to main content" link at the top of the page refer to Web Accessibility Criteria <a href="https://www.csun.edu/universal-design-center/web-accessibility-criteria-link-functionality">Link Functionality</a>    for more information. &nbsp;</li>
+  <li>Verify that keyboards can navigate and interact with the webpage on their own without the use of a mouse.</li>
+  <li>If a popup dialogue box appears on the webpage users should have the ability to navigate through it and able to exit the dialogue box using keyboard only.</li>
+  <li>Avoid creating Flash only webpages as they are not keyboard accessible.</li>
+</ul>
+<p style="color: #cf0a2c;"><strong>* NOTE: Tabindex values above 1 are not recommended</strong></p>
+
+<a href="#KBA-best-practices">
+  <div class="top"> back to top </div>
+</a>
+<br />
+<br />
